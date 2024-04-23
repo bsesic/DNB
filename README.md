@@ -19,6 +19,7 @@ Alle Daten wurden mit Hilfe verschiedener Jupyter Notebooks generiert.
 Die benötigten Bibliotheken finden sich in der Datei: `requirements.txt`.
 Das Projekt wurde mit python3.11 gebaut und getestet.
 Um die generierten RDF-Daten in einen Graphen zu laden wird [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) benötigt.
+Die benötigten Metadaten finden sich [hier](https://web.judaicalink.org/fulltexts/metadata/).
 
 ## Dateien
 ### Jupyter Notebooks
