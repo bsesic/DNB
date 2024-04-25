@@ -1,1 +1,11 @@
 metadata filter=lfs diff=lfs merge=lfs -text
+metadata/CM_Knoten_MODS_XML_15.06.2020 filter=lfs diff=lfs merge=lfs -text
+metadata/CM_Seiten_Metadaten.xlsx filter=lfs diff=lfs merge=lfs -text
+metadata/CM_Seiten_Metadaten_15.06.2020.xlsx filter=lfs diff=lfs merge=lfs -text
+metadata/CM_Seiten_Metadaten.csv filter=lfs diff=lfs merge=lfs -text
+metadata/CM_Seiten_Metadaten_cleaned.csv filter=lfs diff=lfs merge=lfs -text
+metadata/Compact[[:space:]]Memory[[:space:]]Metadaten filter=lfs diff=lfs merge=lfs -text
+metadata/Compact[[:space:]]Memory[[:space:]]Metadaten.zip filter=lfs diff=lfs merge=lfs -text
+metadata/journal_titles.txt filter=lfs diff=lfs merge=lfs -text
+metadata/short_metadata filter=lfs diff=lfs merge=lfs -text
+metadata/~$CM_Seiten_Metadaten_15.06.2020.xlsx filter=lfs diff=lfs merge=lfs -text
