@@ -23,11 +23,12 @@ Die benötigten Metadaten finden sich [hier](https://web.judaicalink.org/fulltex
 
 ## Dateien
 ### Jupyter Notebooks
-* Bestandsabfage
-* Ontology
-* Judaica
-* Projekte
-* Request DNB
+* [Metadata.ipynb]() - Extrahiert die Metadaten und bereite sie auf.
+* [Bestandsabfage.ipynb](https://github.com/bsesic/DNB/blob/master/Bestandsabfrage.ipynb) - Führt die Bestandsabfage durch.
+* [Ontology.ipynb](https://github.com/bsesic/DNB/blob/master/Ontology.ipynb) - Erstellt die Ontologie.
+* [Judaica.ipynb](https://github.com/bsesic/DNB/blob/master/Judaica.ipynb) - Führt eine Bestandsabfrage auf alle Judaica durch.
+* [Projekte.ipynb](https://github.com/bsesic/DNB/blob/master/Projekte.ipynb) - Führt eine Abfrage auf alle Projekte durch.
+* [Request DNB.ipynb](https://github.com/bsesic/DNB/blob/master/Request%20DNB.ipynb) - Führt eine Abfrage auf die Deutsche Nationalbibliothek von Compact Memory durch.
 
 
 ### Generierte Dateien
