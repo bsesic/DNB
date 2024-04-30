@@ -8,5 +8,4 @@ metadata/Compact[[:space:]]Memory[[:space:]]Metadaten filter=lfs diff=lfs merge=
 metadata/Compact[[:space:]]Memory[[:space:]]Metadaten.zip filter=lfs diff=lfs merge=lfs -text
 metadata/journal_titles.txt filter=lfs diff=lfs merge=lfs -text
 metadata/short_metadata filter=lfs diff=lfs merge=lfs -text
-metadata/~$CM_Seiten_Metadaten_15.06.2020.xlsx filter=lfs diff=lfs merge=lfs -text
 metadata/CM_Seiten_Metadaten_aggregated.csv filter=lfs diff=lfs merge=lfs -text
