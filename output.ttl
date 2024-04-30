@@ -1,0 +1,153 @@
+@prefix cm: <https://sammlungen.ub.uni-frankfurt.de/cm/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix jl: <https://ontology.judaicalink.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+cm:URN a owl:DatatypeProperty ;
+    rdfs:label "URN" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range jl:string .
+
+cm:alternativeTitle a owl:DatatypeProperty ;
+    rdfs:label "Alternative Title" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range jl:string .
+
+cm:contentsLink a owl:DatatypeProperty ;
+    rdfs:label "Contents Link" ;
+    rdfs:domain cm:TableOfContents ;
+    rdfs:range jl:anyURI .
+
+cm:contentsTitle a owl:DatatypeProperty ;
+    rdfs:label "Contents Title" ;
+    rdfs:domain cm:TableOfContents ;
+    rdfs:range jl:string .
+
+cm:continuedUnder a owl:ObjectProperty ;
+    rdfs:label "Continued Under" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range cm:Journal .
+
+cm:corpusBelongsTo a owl:ObjectProperty ;
+    rdfs:label "Corpus Belongs To" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range gndo:Corpus .
+
+cm:description a owl:DatatypeProperty ;
+    rdfs:label "Description" ;
+    rdfs:domain cm:Journal .
+
+cm:digitalizationType a owl:DatatypeProperty ;
+    rdfs:label "Digitalization Type" ;
+    rdfs:domain cm:Issue ;
+    rdfs:range jl:string .
+
+cm:governingBody a owl:ObjectProperty ;
+    rdfs:label "Governing Body" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range gndo:CorporateBody .
+
+cm:hasIssue a owl:ObjectProperty ;
+    rdfs:label "Has Issue" ;
+    rdfs:domain cm:Volume ;
+    rdfs:range cm:Issue .
+
+cm:hasTableOfContents a owl:ObjectProperty ;
+    rdfs:label "Has Table of Contents" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range cm:TableOfContents .
+
+cm:hasTitlePage a owl:ObjectProperty ;
+    rdfs:label "Has Title Page" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range cm:TitlePage .
+
+cm:hasVolume a owl:ObjectProperty ;
+    rdfs:label "Has Volume" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range cm:Volume .
+
+cm:issueLink a owl:DatatypeProperty ;
+    rdfs:label "Issue Link" ;
+    rdfs:domain cm:Issue ;
+    rdfs:range jl:anyURI .
+
+cm:issueNumber a owl:DatatypeProperty ;
+    rdfs:label "Issue Number" ;
+    rdfs:domain cm:Issue ;
+    rdfs:range jl:integer .
+
+cm:issueYear a owl:DatatypeProperty ;
+    rdfs:label "Issue Year" ;
+    rdfs:domain cm:Issue ;
+    rdfs:range jl:gYear .
+
+cm:language a owl:DatatypeProperty ;
+    rdfs:label "Language" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range jl:string .
+
+cm:linkedJournal a owl:ObjectProperty ;
+    rdfs:label "Linked Journal" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range cm:Journal .
+
+cm:onlineEdition a owl:DatatypeProperty ;
+    rdfs:label "Online Edition" ;
+    rdfs:domain cm:Journal ;
+    rdfs:range jl:string .
+
+cm:place a owl:DatatypeProperty ;
+    rdfs:label "Place" ;
+    rdfs:domain cm:Publication ;
+    rdfs:range jl:string .
+
+cm:printingPress a owl:DatatypeProperty ;
+    rdfs:label "Printing Press" ;
+    rdfs:domain cm:Publication ;
+    rdfs:range jl:string .
+
+cm:publicationDate a owl:DatatypeProperty ;
+    rdfs:label "Publication Date" ;
+    rdfs:domain cm:Publication ;
+    rdfs:range jl:date .
+
+cm:publisher a owl:DatatypeProperty ;
+    rdfs:label "Publisher" ;
+    rdfs:domain cm:Publication ;
+    rdfs:range jl:string .
+
+cm:title a owl:DatatypeProperty ;
+    rdfs:label "Title" ;
+    rdfs:domain cm:Journal .
+
+cm:titleDescription a owl:DatatypeProperty ;
+    rdfs:label "Title Description" ;
+    rdfs:domain cm:TitlePage ;
+    rdfs:range jl:string .
+
+cm:titleLink a owl:DatatypeProperty ;
+    rdfs:label "Title Link" ;
+    rdfs:domain cm:TitlePage ;
+    rdfs:range jl:anyURI .
+
+cm:Volume a owl:Class ;
+    rdfs:label "Volume" .
+
+cm:TableOfContents a owl:Class ;
+    rdfs:label "Table of Contents" .
+
+cm:TitlePage a owl:Class ;
+    rdfs:label "Title Page" .
+
+cm:Publication a owl:Class ;
+    rdfs:label "Publication" .
+
+cm:Issue a owl:Class ;
+    rdfs:label "Issue" .
+
+cm:Journal a owl:Class ;
+    rdfs:label "Journal" ;
+    rdfs:subClassOf gndo:Periodical .
+
