@@ -404,3 +404,5 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,intellij+all,pycharm+all,macos,linux,windows
 #
 metadata/short_metadata/
+metadata/short_metadata/filename_to_meta.json
+metadata/short_metadata/vlid_to_meta.json
